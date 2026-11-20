@@ -1,0 +1,1322 @@
+[
+  {
+    "device": "phone",
+    "fault_name": "Battery degradation",
+    "keywords_en": [
+      "battery drains quickly",
+      "phone dies at high percentage",
+      "battery health is poor"
+    ],
+    "keywords_sw": [
+      "betri inaisha haraka",
+      "simu inazima ikiwa na chaji",
+      "betri haishiki chaji"
+    ],
+    "fix_steps": [
+      "Check battery health and usage statistics.",
+      "Test with a known-good compatible charger.",
+      "Have the battery inspected and replaced if its capacity is degraded."
+    ],
+    "cost_min": 1500,
+    "cost_max": 6000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Charging port damage",
+    "keywords_en": [
+      "phone only charges at an angle",
+      "charging cable feels loose",
+      "phone does not detect charger"
+    ],
+    "keywords_sw": [
+      "simu inachaji ukiinamisha waya",
+      "sehemu ya kuchajia imelegea",
+      "simu haisomi chaja"
+    ],
+    "fix_steps": [
+      "Inspect the port for lint or visible damage without inserting metal tools.",
+      "Try a known-good cable and charger.",
+      "Have the charging port tested and replaced if damaged."
+    ],
+    "cost_min": 1000,
+    "cost_max": 5000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Broken display panel",
+    "keywords_en": [
+      "cracked screen",
+      "black patches on display",
+      "lines across screen"
+    ],
+    "keywords_sw": [
+      "screen imevunjika",
+      "kuna madoa meusi kwenye screen",
+      "mistari kwenye screen"
+    ],
+    "fix_steps": [
+      "Back up data if the display is still usable.",
+      "Avoid pressing damaged glass.",
+      "Have the display assembly inspected and replaced."
+    ],
+    "cost_min": 2500,
+    "cost_max": 18000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Touchscreen digitizer failure",
+    "keywords_en": [
+      "screen does not respond to touch",
+      "ghost touches",
+      "some areas of screen are unresponsive"
+    ],
+    "keywords_sw": [
+      "screen haigusi",
+      "simu inajibonyeza yenyewe",
+      "sehemu ya screen haigusi"
+    ],
+    "fix_steps": [
+      "Restart the phone and remove any screen protector temporarily.",
+      "Check for moisture or physical damage.",
+      "Have the digitizer or display assembly tested."
+    ],
+    "cost_min": 2000,
+    "cost_max": 15000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Water or liquid ingress",
+    "keywords_en": [
+      "phone got wet",
+      "moisture detected",
+      "phone stopped working after liquid spill"
+    ],
+    "keywords_sw": [
+      "simu imelowa",
+      "imeonyesha maji ndani",
+      "simu imeacha kufanya kazi baada ya kumwagiwa maji"
+    ],
+    "fix_steps": [
+      "Power the phone off immediately if safe to do so.",
+      "Do not charge it or apply heat.",
+      "Seek professional internal cleaning and inspection promptly."
+    ],
+    "cost_min": 2000,
+    "cost_max": 12000,
+    "risk_level": "red"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Overheating",
+    "keywords_en": [
+      "phone becomes unusually hot",
+      "overheats while idle",
+      "temperature warning"
+    ],
+    "keywords_sw": [
+      "simu inapata joto sana",
+      "inapata joto hata bila kuitumia",
+      "onyo la joto"
+    ],
+    "fix_steps": [
+      "Stop demanding apps and remove the case.",
+      "Let the phone cool in a shaded, ventilated place.",
+      "If swelling, smoke or a burning smell occurs, stop using it and seek urgent service."
+    ],
+    "cost_min": 500,
+    "cost_max": 8000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Speaker failure",
+    "keywords_en": [
+      "no sound from loudspeaker",
+      "speaker sounds distorted",
+      "media audio is very quiet"
+    ],
+    "keywords_sw": [
+      "spika haitoi sauti",
+      "sauti ya spika imeharibika",
+      "sauti iko chini sana"
+    ],
+    "fix_steps": [
+      "Check volume, silent mode and audio output settings.",
+      "Test with headphones and another app.",
+      "Have the speaker module and connectors inspected."
+    ],
+    "cost_min": 800,
+    "cost_max": 5000,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Microphone failure",
+    "keywords_en": [
+      "people cannot hear me on calls",
+      "voice recordings are silent",
+      "microphone sounds muffled"
+    ],
+    "keywords_sw": [
+      "watu hawanisikii kwa simu",
+      "rekodi haina sauti",
+      "mic inatoa sauti hafifu"
+    ],
+    "fix_steps": [
+      "Test voice recording and calls in another app.",
+      "Check microphone permissions and blocked openings.",
+      "Have the microphone and flex cable inspected."
+    ],
+    "cost_min": 800,
+    "cost_max": 4500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Camera module failure",
+    "keywords_en": [
+      "camera shows a black screen",
+      "camera cannot focus",
+      "camera app crashes"
+    ],
+    "keywords_sw": [
+      "camera inaonyesha screen nyeusi",
+      "camera haifocus",
+      "app ya camera inajifunga"
+    ],
+    "fix_steps": [
+      "Restart and test the camera in another app.",
+      "Check for lens obstruction or physical damage.",
+      "Have the camera module and connector tested."
+    ],
+    "cost_min": 1500,
+    "cost_max": 9000,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Power button failure",
+    "keywords_en": [
+      "power button does not click",
+      "cannot lock screen with button",
+      "button works intermittently"
+    ],
+    "keywords_sw": [
+      "kitufe cha kuwasha hakifanyi kazi",
+      "siwezi kufunga screen kwa kitufe",
+      "kitufe kinafanya kazi mara chache"
+    ],
+    "fix_steps": [
+      "Try the accessibility power controls if available.",
+      "Check whether a case is obstructing the button.",
+      "Have the button flex and switch inspected."
+    ],
+    "cost_min": 800,
+    "cost_max": 4000,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Volume button failure",
+    "keywords_en": [
+      "volume buttons do not work",
+      "volume changes by itself",
+      "volume button is stuck"
+    ],
+    "keywords_sw": [
+      "vitufe vya sauti havifanyi kazi",
+      "sauti inajiongeza yenyewe",
+      "kitufe cha sauti kimekwama"
+    ],
+    "fix_steps": [
+      "Remove the case and test the buttons.",
+      "Restart and check software controls.",
+      "Have the button assembly inspected."
+    ],
+    "cost_min": 700,
+    "cost_max": 3500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Wi-Fi connectivity fault",
+    "keywords_en": [
+      "phone cannot connect to Wi-Fi",
+      "Wi-Fi keeps disconnecting",
+      "Wi-Fi toggle is disabled"
+    ],
+    "keywords_sw": [
+      "simu haiunganishi Wi-Fi",
+      "Wi-Fi inakatika mara kwa mara",
+      "Wi-Fi haiwaki"
+    ],
+    "fix_steps": [
+      "Restart the phone and router.",
+      "Forget and rejoin the network.",
+      "Test another network; seek service if Wi-Fi remains unavailable."
+    ],
+    "cost_min": 0,
+    "cost_max": 3000,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Cellular network or antenna fault",
+    "keywords_en": [
+      "no signal in multiple locations",
+      "SIM works in another phone",
+      "mobile network unavailable"
+    ],
+    "keywords_sw": [
+      "hakuna network sehemu tofauti",
+      "SIM inafanya kazi kwa simu nyingine",
+      "mtandao wa simu haupatikani"
+    ],
+    "fix_steps": [
+      "Toggle airplane mode and restart.",
+      "Test the SIM in another phone and another SIM in this phone.",
+      "Have the antenna and modem hardware checked if the fault persists."
+    ],
+    "cost_min": 500,
+    "cost_max": 7000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "SIM card or SIM tray fault",
+    "keywords_en": [
+      "SIM not detected",
+      "invalid SIM message",
+      "SIM tray is damaged"
+    ],
+    "keywords_sw": [
+      "simu haisomi SIM",
+      "inaandika SIM si halali",
+      "sehemu ya SIM imeharibika"
+    ],
+    "fix_steps": [
+      "Restart and reseat the SIM carefully.",
+      "Test the SIM in another device.",
+      "Ask the carrier for a replacement SIM or have the tray inspected."
+    ],
+    "cost_min": 0,
+    "cost_max": 2500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Storage nearly full",
+    "keywords_en": [
+      "storage space running out",
+      "cannot install apps",
+      "phone says storage full"
+    ],
+    "keywords_sw": [
+      "nafasi ya simu imejaa",
+      "siwezi kuweka app",
+      "simu inasema memory imejaa"
+    ],
+    "fix_steps": [
+      "Review storage usage and remove unwanted downloads.",
+      "Back up photos before deleting them.",
+      "Avoid deleting unfamiliar system files."
+    ],
+    "cost_min": 0,
+    "cost_max": 1500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Operating system boot failure",
+    "keywords_en": [
+      "phone stuck on logo",
+      "phone keeps restarting",
+      "phone will not boot"
+    ],
+    "keywords_sw": [
+      "simu imekwama kwa logo",
+      "simu inajirestart",
+      "simu haiwaki hadi home screen"
+    ],
+    "fix_steps": [
+      "Charge with a known-good charger.",
+      "Try the manufacturer's documented recovery procedure.",
+      "Avoid factory reset until important data is backed up or recovery options are understood."
+    ],
+    "cost_min": 0,
+    "cost_max": 6000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Proximity sensor fault",
+    "keywords_en": [
+      "screen stays on during calls",
+      "screen goes black after call",
+      "proximity sensor not working"
+    ],
+    "keywords_sw": [
+      "screen haizimi ukiweka simu sikioni",
+      "screen inabaki nyeusi baada ya simu",
+      "sensor haifanyi kazi"
+    ],
+    "fix_steps": [
+      "Clean the top display area.",
+      "Remove screen protector or case temporarily.",
+      "Have the sensor and display alignment inspected."
+    ],
+    "cost_min": 800,
+    "cost_max": 4500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Vibration motor failure",
+    "keywords_en": [
+      "phone does not vibrate",
+      "vibration is weak",
+      "phone makes rattling vibration noise"
+    ],
+    "keywords_sw": [
+      "simu haitetemeki",
+      "mtetemo ni dhaifu",
+      "simu inatoa sauti ya kugugumia"
+    ],
+    "fix_steps": [
+      "Check vibration settings and Do Not Disturb.",
+      "Test vibration with system diagnostics if available.",
+      "Have the vibration motor inspected."
+    ],
+    "cost_min": 700,
+    "cost_max": 3500,
+    "risk_level": "green"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Charging accessory fault",
+    "keywords_en": [
+      "phone charges slowly with one cable",
+      "charger gets unusually hot",
+      "charging stops with one adapter"
+    ],
+    "keywords_sw": [
+      "simu inachaji polepole kwa waya fulani",
+      "chaja inapata joto sana",
+      "chaji inakatika kwa adapter fulani"
+    ],
+    "fix_steps": [
+      "Stop using a charger that smells burnt or becomes dangerously hot.",
+      "Test with a certified compatible cable and adapter.",
+      "Replace the faulty accessory rather than opening it."
+    ],
+    "cost_min": 500,
+    "cost_max": 4000,
+    "risk_level": "red"
+  },
+  {
+    "device": "phone",
+    "fault_name": "Mainboard or power-management fault",
+    "keywords_en": [
+      "phone is completely dead",
+      "phone has no power after impact",
+      "phone shuts down and will not restart"
+    ],
+    "keywords_sw": [
+      "simu imekufa kabisa",
+      "simu haina umeme baada ya kuanguka",
+      "simu inazima na haiwaki tena"
+    ],
+    "fix_steps": [
+      "Try one known-good charger and cable.",
+      "Check for external signs of impact or liquid exposure.",
+      "Do not attempt board-level repair; seek qualified diagnostics."
+    ],
+    "cost_min": 3000,
+    "cost_max": 15000,
+    "risk_level": "red"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Battery degradation",
+    "keywords_en": [
+      "laptop battery drains quickly",
+      "laptop shuts down when unplugged",
+      "battery capacity is low"
+    ],
+    "keywords_sw": [
+      "betri ya laptop inaisha haraka",
+      "laptop inazima ukitoa chaja",
+      "betri imechoka"
+    ],
+    "fix_steps": [
+      "Check the operating system battery report.",
+      "Compare runtime while unplugged at moderate brightness.",
+      "Replace the battery if its health is poor or swelling is present; swelling requires urgent service."
+    ],
+    "cost_min": 2500,
+    "cost_max": 12000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "AC adapter or charger failure",
+    "keywords_en": [
+      "laptop does not charge",
+      "charger light is off",
+      "charging works with another adapter"
+    ],
+    "keywords_sw": [
+      "laptop haichaji",
+      "taa ya chaja haiwaki",
+      "inachaji kwa chaja nyingine"
+    ],
+    "fix_steps": [
+      "Inspect cable and adapter for damage.",
+      "Test with a compatible known-good adapter of correct rating.",
+      "Stop using an adapter that sparks, smells burnt or overheats."
+    ],
+    "cost_min": 1500,
+    "cost_max": 8000,
+    "risk_level": "red"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "DC charging jack failure",
+    "keywords_en": [
+      "charger plug is loose",
+      "charging cuts in and out",
+      "laptop charges when cable is moved"
+    ],
+    "keywords_sw": [
+      "sehemu ya chaja imelegea",
+      "chaji inakatika",
+      "inachaji ukisogeza waya"
+    ],
+    "fix_steps": [
+      "Power down before inspecting the connector externally.",
+      "Test a known-good adapter.",
+      "Have the DC jack or USB-C charging port inspected."
+    ],
+    "cost_min": 2000,
+    "cost_max": 9000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "RAM fault",
+    "keywords_en": [
+      "laptop powers on but no display",
+      "random blue screens",
+      "memory diagnostic reports errors"
+    ],
+    "keywords_sw": [
+      "laptop inawaka lakini screen ni nyeusi",
+      "blue screen mara kwa mara",
+      "memory test inaonyesha makosa"
+    ],
+    "fix_steps": [
+      "Disconnect power before any user-serviceable memory check.",
+      "Run the operating system memory diagnostic if possible.",
+      "Have RAM modules and slots tested individually."
+    ],
+    "cost_min": 1500,
+    "cost_max": 9000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "SSD or hard drive failure",
+    "keywords_en": [
+      "laptop says no boot device",
+      "disk clicking noise",
+      "files disappear or system freezes"
+    ],
+    "keywords_sw": [
+      "inasema hakuna boot device",
+      "disk inatoa sauti ya kubofya",
+      "files zinapotea au laptop inaganda"
+    ],
+    "fix_steps": [
+      "Back up important data immediately if the drive is accessible.",
+      "Check drive health using a trusted diagnostic utility.",
+      "Avoid repeated power cycles on a clicking hard drive; seek data recovery advice."
+    ],
+    "cost_min": 2500,
+    "cost_max": 15000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Display panel failure",
+    "keywords_en": [
+      "laptop screen is black but external monitor works",
+      "cracked laptop display",
+      "vertical lines on screen"
+    ],
+    "keywords_sw": [
+      "screen ya laptop ni nyeusi lakini monitor ya nje inafanya kazi",
+      "screen imevunjika",
+      "mistari wima kwenye screen"
+    ],
+    "fix_steps": [
+      "Connect an external display to help isolate the panel.",
+      "Check brightness and display output settings.",
+      "Have the panel and display cable inspected."
+    ],
+    "cost_min": 4000,
+    "cost_max": 20000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Display cable fault",
+    "keywords_en": [
+      "screen flickers when lid moves",
+      "display works at certain angles",
+      "intermittent laptop screen"
+    ],
+    "keywords_sw": [
+      "screen inatetemeka ukisogeza kifuniko",
+      "screen inafanya kazi kwa pembe fulani",
+      "screen inawaka na kuzima"
+    ],
+    "fix_steps": [
+      "Avoid repeatedly flexing the display lid.",
+      "Test an external monitor.",
+      "Have the display cable and hinge routing inspected."
+    ],
+    "cost_min": 2500,
+    "cost_max": 10000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Cooling fan failure",
+    "keywords_en": [
+      "fan makes grinding noise",
+      "fan does not spin",
+      "laptop overheats quickly"
+    ],
+    "keywords_sw": [
+      "feni inatoa sauti ya kusaga",
+      "feni haizunguki",
+      "laptop inapata joto haraka"
+    ],
+    "fix_steps": [
+      "Keep vents unobstructed and shut down if temperatures become unsafe.",
+      "Check fan status with manufacturer diagnostics.",
+      "Have the fan and cooling assembly serviced."
+    ],
+    "cost_min": 2000,
+    "cost_max": 8500,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Dust-clogged cooling system",
+    "keywords_en": [
+      "laptop gets hot under light load",
+      "air vents blow little air",
+      "fan runs constantly"
+    ],
+    "keywords_sw": [
+      "laptop inapata joto hata kwa kazi ndogo",
+      "hewa haitoki vizuri",
+      "feni inazunguka kila wakati"
+    ],
+    "fix_steps": [
+      "Use the laptop on a hard, flat surface.",
+      "Check vents for visible dust without inserting objects.",
+      "Arrange safe internal cleaning if airflow remains restricted."
+    ],
+    "cost_min": 1000,
+    "cost_max": 5000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Keyboard failure",
+    "keywords_en": [
+      "some keys do not work",
+      "keyboard types wrong characters",
+      "keys are stuck"
+    ],
+    "keywords_sw": [
+      "baadhi ya vitufe havifanyi kazi",
+      "keyboard inaandika herufi zisizo sahihi",
+      "vitufe vimekwama"
+    ],
+    "fix_steps": [
+      "Check keyboard layout and accessibility settings.",
+      "Test an external keyboard.",
+      "Have the keyboard inspected, especially after liquid exposure."
+    ],
+    "cost_min": 1500,
+    "cost_max": 9000,
+    "risk_level": "green"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Touchpad failure",
+    "keywords_en": [
+      "touchpad does not move cursor",
+      "touchpad clicks do not work",
+      "cursor jumps randomly"
+    ],
+    "keywords_sw": [
+      "touchpad haisogezi mshale",
+      "touchpad haibofyi",
+      "mshale unaruka ruka"
+    ],
+    "fix_steps": [
+      "Check touchpad function key and system settings.",
+      "Disconnect external mice and restart.",
+      "Update or reinstall the touchpad driver; seek hardware inspection if needed."
+    ],
+    "cost_min": 1000,
+    "cost_max": 6000,
+    "risk_level": "green"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Wi-Fi adapter fault",
+    "keywords_en": [
+      "laptop cannot see wireless networks",
+      "Wi-Fi adapter missing",
+      "wireless disconnects on this laptop only"
+    ],
+    "keywords_sw": [
+      "laptop haioni Wi-Fi",
+      "adapter ya Wi-Fi haionekani",
+      "Wi-Fi inakatika kwa laptop hii pekee"
+    ],
+    "fix_steps": [
+      "Check airplane mode and device manager.",
+      "Test with a USB Wi-Fi adapter or another network.",
+      "Update drivers and have the internal adapter or antenna checked."
+    ],
+    "cost_min": 1000,
+    "cost_max": 7000,
+    "risk_level": "green"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Operating system corruption",
+    "keywords_en": [
+      "laptop stuck in automatic repair",
+      "system crashes after startup",
+      "Windows will not load"
+    ],
+    "keywords_sw": [
+      "laptop imekwama kwa automatic repair",
+      "system inazima baada ya kuwaka",
+      "Windows haifunguki"
+    ],
+    "fix_steps": [
+      "Record any error codes shown.",
+      "Use the operating system's recovery tools after backing up data where possible.",
+      "Avoid reinstalling before considering data recovery."
+    ],
+    "cost_min": 0,
+    "cost_max": 6000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "BIOS or firmware boot issue",
+    "keywords_en": [
+      "laptop stuck at manufacturer logo",
+      "BIOS cannot find operating system",
+      "boot loop after firmware update"
+    ],
+    "keywords_sw": [
+      "laptop imekwama kwa logo ya kampuni",
+      "BIOS haioni operating system",
+      "inajirestart baada ya update"
+    ],
+    "fix_steps": [
+      "Disconnect unnecessary peripherals.",
+      "Check whether the storage drive appears in BIOS.",
+      "Use only the manufacturer's recovery instructions; do not interrupt firmware updates."
+    ],
+    "cost_min": 0,
+    "cost_max": 8000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Motherboard or power circuit fault",
+    "keywords_en": [
+      "laptop has no lights or power",
+      "laptop died after liquid spill",
+      "power cycles immediately"
+    ],
+    "keywords_sw": [
+      "laptop haina taa wala umeme",
+      "laptop ilikufa baada ya kumwagiwa maji",
+      "inawaka na kuzima mara moja"
+    ],
+    "fix_steps": [
+      "Disconnect the charger and stop repeated power attempts after liquid exposure.",
+      "Do not open or probe power circuitry unless qualified.",
+      "Seek board-level diagnosis from a qualified technician."
+    ],
+    "cost_min": 4000,
+    "cost_max": 25000,
+    "risk_level": "red"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Hinge or casing damage",
+    "keywords_en": [
+      "laptop hinge is stiff",
+      "screen casing is separating",
+      "cracking sound when opening lid"
+    ],
+    "keywords_sw": [
+      "hinge imekaza",
+      "kifuniko cha screen kinatengana",
+      "sauti ya kupasuka ukifungua laptop"
+    ],
+    "fix_steps": [
+      "Stop forcing the lid open or closed.",
+      "Check for exposed cables or sharp broken parts.",
+      "Have hinges and mounting points repaired before further use."
+    ],
+    "cost_min": 2000,
+    "cost_max": 12000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Webcam failure",
+    "keywords_en": [
+      "camera not detected",
+      "webcam image is black",
+      "video calls cannot access camera"
+    ],
+    "keywords_sw": [
+      "camera haionekani",
+      "webcam inaonyesha nyeusi",
+      "video call haiwezi kutumia camera"
+    ],
+    "fix_steps": [
+      "Check camera privacy shutter and app permissions.",
+      "Test with another application.",
+      "Update drivers and have the camera cable or module inspected."
+    ],
+    "cost_min": 1000,
+    "cost_max": 6000,
+    "risk_level": "green"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Audio output fault",
+    "keywords_en": [
+      "laptop speakers have no sound",
+      "headphone jack not detected",
+      "audio is distorted"
+    ],
+    "keywords_sw": [
+      "spika za laptop hazitoi sauti",
+      "sehemu ya headphone haisomi",
+      "sauti imeharibika"
+    ],
+    "fix_steps": [
+      "Check mute, output device and application volume.",
+      "Test headphones and external speakers.",
+      "Update audio drivers and have the audio jack or speakers inspected."
+    ],
+    "cost_min": 1000,
+    "cost_max": 6500,
+    "risk_level": "green"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "USB port failure",
+    "keywords_en": [
+      "USB device not detected",
+      "one USB port has no power",
+      "USB connection disconnects"
+    ],
+    "keywords_sw": [
+      "USB haisomi kifaa",
+      "USB port moja haina umeme",
+      "USB inakatika"
+    ],
+    "fix_steps": [
+      "Test the device and cable on another port or computer.",
+      "Inspect the port externally for damage.",
+      "Have the port and motherboard connection inspected; do not force connectors."
+    ],
+    "cost_min": 1000,
+    "cost_max": 7000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "laptop",
+    "fault_name": "Liquid damage",
+    "keywords_en": [
+      "laptop got wet",
+      "keys stopped working after spill",
+      "laptop shut down after liquid spill"
+    ],
+    "keywords_sw": [
+      "laptop imelowa",
+      "keyboard imeacha kufanya kazi baada ya kumwagiwa",
+      "laptop ilizima baada ya kumwagiwa maji"
+    ],
+    "fix_steps": [
+      "Disconnect power and shut down immediately if safe.",
+      "Do not charge, heat or repeatedly turn it on.",
+      "Seek professional internal inspection and data-recovery advice."
+    ],
+    "cost_min": 3000,
+    "cost_max": 20000,
+    "risk_level": "red"
+  },
+  {
+    "device": "router",
+    "fault_name": "ISP service outage",
+    "keywords_en": [
+      "internet is down on all devices",
+      "router has power but no internet",
+      "neighbours also have no connection"
+    ],
+    "keywords_sw": [
+      "internet haifanyi kazi kwa vifaa vyote",
+      "router ina umeme lakini hakuna internet",
+      "majirani pia hawana internet"
+    ],
+    "fix_steps": [
+      "Check the ISP service-status channel or contact support.",
+      "Confirm whether the WAN or Internet indicator shows an outage.",
+      "Avoid resetting the router until ISP settings are known."
+    ],
+    "cost_min": 0,
+    "cost_max": 0,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "WAN cable or port fault",
+    "keywords_en": [
+      "WAN light is off",
+      "internet works when cable is moved",
+      "router does not detect modem"
+    ],
+    "keywords_sw": [
+      "taa ya WAN imezimika",
+      "internet inafanya kazi ukisogeza waya",
+      "router haisomi modem"
+    ],
+    "fix_steps": [
+      "Reseat the Ethernet cable at both ends.",
+      "Try a known-good Ethernet cable.",
+      "Test another WAN port if supported and have a damaged port inspected."
+    ],
+    "cost_min": 300,
+    "cost_max": 3000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Incorrect Wi-Fi password or authentication",
+    "keywords_en": [
+      "devices say incorrect password",
+      "cannot join Wi-Fi network",
+      "authentication failed"
+    ],
+    "keywords_sw": [
+      "vifaa vinasema password si sahihi",
+      "siwezi kuingia Wi-Fi",
+      "authentication imekataa"
+    ],
+    "fix_steps": [
+      "Confirm the exact Wi-Fi password and keyboard case.",
+      "Forget the network and reconnect.",
+      "Change the password through the router admin interface if authorized."
+    ],
+    "cost_min": 0,
+    "cost_max": 1000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Weak Wi-Fi signal or coverage",
+    "keywords_en": [
+      "Wi-Fi weak in another room",
+      "connection drops far from router",
+      "low signal bars"
+    ],
+    "keywords_sw": [
+      "Wi-Fi ni dhaifu chumba kingine",
+      "connection inakatika mbali na router",
+      "alama za signal ni chache"
+    ],
+    "fix_steps": [
+      "Place the router centrally and away from obstructions.",
+      "Test near the router to compare signal.",
+      "Consider a properly configured access point or mesh system."
+    ],
+    "cost_min": 0,
+    "cost_max": 12000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Wireless interference or congestion",
+    "keywords_en": [
+      "Wi-Fi slow at busy times",
+      "connection improves near router",
+      "many nearby Wi-Fi networks"
+    ],
+    "keywords_sw": [
+      "Wi-Fi ni polepole wakati watu wengi wako online",
+      "inaimarika ukiwa karibu na router",
+      "kuna Wi-Fi nyingi karibu"
+    ],
+    "fix_steps": [
+      "Restart the router during a suitable maintenance window.",
+      "Use a Wi-Fi analyzer to identify a less congested channel.",
+      "Prefer 5 GHz or 6 GHz where supported and within range."
+    ],
+    "cost_min": 0,
+    "cost_max": 3000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "DHCP address allocation failure",
+    "keywords_en": [
+      "device says obtaining IP address",
+      "connected without valid IP",
+      "some devices cannot get network address"
+    ],
+    "keywords_sw": [
+      "kifaa kinasema kinatafuta IP",
+      "imeunganishwa bila IP sahihi",
+      "baadhi ya vifaa havipati IP"
+    ],
+    "fix_steps": [
+      "Restart the affected device and router.",
+      "Check that DHCP is enabled and the address pool is not exhausted.",
+      "Review static IP conflicts and router logs."
+    ],
+    "cost_min": 0,
+    "cost_max": 2500,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "DNS resolution failure",
+    "keywords_en": [
+      "connected but websites do not open",
+      "DNS server not responding",
+      "apps work by IP but not domain"
+    ],
+    "keywords_sw": [
+      "imeunganishwa lakini tovuti hazifunguki",
+      "DNS server haijibu",
+      "app zinafanya kazi kwa IP pekee"
+    ],
+    "fix_steps": [
+      "Test more than one website and device.",
+      "Restart the router and check ISP DNS status.",
+      "Use a trusted DNS resolver only if permitted by network policy."
+    ],
+    "cost_min": 0,
+    "cost_max": 1500,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Router overheating",
+    "keywords_en": [
+      "router feels very hot",
+      "router restarts under load",
+      "internet drops after long use"
+    ],
+    "keywords_sw": [
+      "router ina joto sana",
+      "router inajirestart ikiwa inatumika",
+      "internet inakatika baada ya muda"
+    ],
+    "fix_steps": [
+      "Move the router to an open, ventilated location.",
+      "Keep vents clear and do not cover the device.",
+      "Replace the power adapter or router if overheating persists after inspection."
+    ],
+    "cost_min": 1000,
+    "cost_max": 8000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "router",
+    "fault_name": "Power adapter failure",
+    "keywords_en": [
+      "router will not power on",
+      "power light flickers",
+      "router restarts when cable moves"
+    ],
+    "keywords_sw": [
+      "router haiwaki",
+      "taa ya umeme inawaka na kuzima",
+      "router inajirestart ukisogeza waya"
+    ],
+    "fix_steps": [
+      "Check the wall outlet and adapter connection.",
+      "Use only a compatible adapter with matching voltage, polarity and sufficient current.",
+      "Stop using an adapter that smells burnt or is damaged."
+    ],
+    "cost_min": 800,
+    "cost_max": 4000,
+    "risk_level": "red"
+  },
+  {
+    "device": "router",
+    "fault_name": "Firmware corruption",
+    "keywords_en": [
+      "router stuck during startup",
+      "router repeatedly reboots after update",
+      "admin interface unavailable after firmware update"
+    ],
+    "keywords_sw": [
+      "router imekwama wakati wa kuwaka",
+      "inajirestart baada ya update",
+      "ukurasa wa admin haufunguki baada ya update"
+    ],
+    "fix_steps": [
+      "Power-cycle once according to manufacturer guidance.",
+      "Check the manufacturer's recovery procedure and exact model firmware.",
+      "Do not install firmware for a different hardware revision."
+    ],
+    "cost_min": 0,
+    "cost_max": 5000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "router",
+    "fault_name": "Router hardware failure",
+    "keywords_en": [
+      "router has no lights with known-good adapter",
+      "ports do not work",
+      "router repeatedly freezes"
+    ],
+    "keywords_sw": [
+      "router haina taa hata kwa adapter nzuri",
+      "ports hazifanyi kazi",
+      "router inaganda mara kwa mara"
+    ],
+    "fix_steps": [
+      "Test the power adapter and cables first.",
+      "Check manufacturer diagnostics and warranty.",
+      "Replace or professionally inspect the router if hardware failure is confirmed."
+    ],
+    "cost_min": 2500,
+    "cost_max": 15000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "router",
+    "fault_name": "Incorrect WAN configuration",
+    "keywords_en": [
+      "router connected but no internet after setup",
+      "PPPoE authentication failed",
+      "WAN settings changed"
+    ],
+    "keywords_sw": [
+      "router imeunganishwa lakini hakuna internet baada ya setup",
+      "PPPoE imekataa",
+      "settings za WAN zimebadilika"
+    ],
+    "fix_steps": [
+      "Confirm ISP connection type and required credentials.",
+      "Compare WAN settings with ISP-provided configuration.",
+      "Contact the ISP before factory resetting or changing credentials."
+    ],
+    "cost_min": 0,
+    "cost_max": 2000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "MAC address binding",
+    "keywords_en": [
+      "internet works with old router only",
+      "new router cannot obtain connection",
+      "ISP binds service to device"
+    ],
+    "keywords_sw": [
+      "internet inafanya kazi kwa router ya zamani pekee",
+      "router mpya haipati connection",
+      "ISP imefunga huduma kwa kifaa"
+    ],
+    "fix_steps": [
+      "Ask the ISP whether MAC registration is required.",
+      "Provide the router WAN MAC address through the ISP's approved process.",
+      "Do not clone another customer's device identity."
+    ],
+    "cost_min": 0,
+    "cost_max": 1500,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "IP address conflict",
+    "keywords_en": [
+      "devices show IP conflict warning",
+      "network works intermittently",
+      "two devices have same IP"
+    ],
+    "keywords_sw": [
+      "vifaa vinaonyesha IP conflict",
+      "network inafanya kazi mara kwa mara",
+      "vifaa viwili vina IP moja"
+    ],
+    "fix_steps": [
+      "Restart affected devices and router.",
+      "Check DHCP reservations and manually assigned addresses.",
+      "Ensure static addresses are outside the dynamic pool or reserved correctly."
+    ],
+    "cost_min": 0,
+    "cost_max": 2000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Parental control or access rule blocking",
+    "keywords_en": [
+      "one device cannot access internet",
+      "some websites are blocked",
+      "internet access disabled by schedule"
+    ],
+    "keywords_sw": [
+      "kifaa kimoja hakiwezi kutumia internet",
+      "tovuti zingine zimezuiwa",
+      "internet imezuiwa kwa ratiba"
+    ],
+    "fix_steps": [
+      "Review access-control and parental-control rules with the network owner.",
+      "Check device schedules and blocked lists.",
+      "Change rules only with authorization."
+    ],
+    "cost_min": 0,
+    "cost_max": 1000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Ethernet cable failure",
+    "keywords_en": [
+      "wired connection drops",
+      "Ethernet link light is off",
+      "connection changes when cable is touched"
+    ],
+    "keywords_sw": [
+      "connection ya waya inakatika",
+      "taa ya Ethernet haijawaka",
+      "connection inabadilika ukigusa waya"
+    ],
+    "fix_steps": [
+      "Inspect connectors and cable clips.",
+      "Test with a known-good Cat5e or better cable.",
+      "Replace damaged cable and avoid tight bends."
+    ],
+    "cost_min": 300,
+    "cost_max": 2500,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Wi-Fi radio or antenna fault",
+    "keywords_en": [
+      "Wi-Fi network disappeared",
+      "Wi-Fi range suddenly became very short",
+      "wired works but wireless does not"
+    ],
+    "keywords_sw": [
+      "jina la Wi-Fi limepotea",
+      "eneo la Wi-Fi limepungua ghafla",
+      "waya inafanya kazi lakini wireless haifanyi"
+    ],
+    "fix_steps": [
+      "Confirm wireless radio is enabled in router settings.",
+      "Restart and check whether SSID broadcast is enabled.",
+      "Have antenna connectors or wireless radio hardware inspected."
+    ],
+    "cost_min": 1000,
+    "cost_max": 7000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "router",
+    "fault_name": "Double NAT or upstream router conflict",
+    "keywords_en": [
+      "online games report strict NAT",
+      "port forwarding does not work",
+      "two routers are connected"
+    ],
+    "keywords_sw": [
+      "michezo inaonyesha strict NAT",
+      "port forwarding haifanyi kazi",
+      "router mbili zimeunganishwa"
+    ],
+    "fix_steps": [
+      "Map the network topology and identify upstream routers.",
+      "Check whether the ISP device is also routing.",
+      "Use bridge mode or a single-router design only with appropriate ISP configuration."
+    ],
+    "cost_min": 0,
+    "cost_max": 3000,
+    "risk_level": "green"
+  },
+  {
+    "device": "router",
+    "fault_name": "Network loop or switching issue",
+    "keywords_en": [
+      "network becomes slow when cable connected",
+      "broadcast storm symptoms",
+      "switch ports repeatedly flash"
+    ],
+    "keywords_sw": [
+      "network inakuwa polepole waya ikiunganishwa",
+      "mtandao unakuwa na traffic nyingi isiyo ya kawaida",
+      "taa za switch zinawaka haraka"
+    ],
+    "fix_steps": [
+      "Disconnect recently added network cables one at a time if authorized.",
+      "Check for duplicate links without loop prevention.",
+      "Have the switch topology and spanning-tree configuration reviewed."
+    ],
+    "cost_min": 0,
+    "cost_max": 5000,
+    "risk_level": "yellow"
+  },
+  {
+    "device": "router",
+    "fault_name": "Unauthorized access or configuration compromise",
+    "keywords_en": [
+      "unknown devices on Wi-Fi",
+      "router settings changed unexpectedly",
+      "DNS settings changed without permission"
+    ],
+    "keywords_sw": [
+      "vifaa nisivyovijua vimeingia Wi-Fi",
+      "settings za router zimebadilika",
+      "DNS imebadilishwa bila ruhusa"
+    ],
+    "fix_steps": [
+      "Change the admin password from a trusted device.",
+      "Update router firmware from the manufacturer's official source.",
+      "Review connected devices and reset configuration only after recording ISP settings."
+    ],
+    "cost_min": 0,
+    "cost_max": 4000,
+    "risk_level": "yellow"
+  }
+]
