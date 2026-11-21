@@ -22,6 +22,19 @@ def db():
         session.close()
 
 
+@pytest.fixture(scope="module", autouse=True)
+def clean_test_bookings():
+    yield
+    session = SessionLocal()
+    try:
+        session.query(Booking).filter(
+            Booking.user_name.in_(["Amina Mohamed", "Kofi Mensah", "Test User", "Antony Test"])
+        ).delete()
+        session.commit()
+    finally:
+        session.close()
+
+
 # ---------------------------------------------------------
 # 1. Shop Directory Tests
 # ---------------------------------------------------------
