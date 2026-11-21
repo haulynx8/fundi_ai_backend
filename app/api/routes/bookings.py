@@ -70,15 +70,22 @@ def create_booking(
 def list_bookings(
     shop_id: Annotated[int | None, Query(description="Filter bookings by shop ID")] = None,
     status_filter: Annotated[str | None, Query(alias="status", description="Filter bookings by status")] = None,
+    phone: Annotated[str | None, Query(description="Filter bookings by customer phone number")] = None,
+    user_name: Annotated[str | None, Query(description="Filter bookings by customer name")] = None,
     db: Session = Depends(get_db),
 ):
-    """List repair bookings with optional shop and status filters."""
+    """List repair bookings with optional shop, status, phone, or name filters."""
     query = select(Booking)
 
     if shop_id:
         query = query.where(Booking.shop_id == shop_id)
     if status_filter:
         query = query.where(Booking.status == status_filter.strip().lower())
+    if phone:
+        clean = phone.strip()
+        query = query.where(Booking.phone.ilike(f"%{clean}%"))
+    if user_name:
+        query = query.where(Booking.user_name.ilike(f"%{user_name.strip()}%"))
 
     bookings = db.scalars(query.order_by(Booking.created_at.desc())).all()
     formatted = [format_booking_response(b) for b in bookings]

@@ -150,6 +150,24 @@ def test_list_bookings_success(client):
     assert len(data["bookings"]) >= 1
 
 
+def test_list_bookings_filter_by_phone(client):
+    response = client.get("/api/bookings/?phone=254711223344")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["success"] is True
+    assert data["count"] >= 1
+    assert all("711223344" in b["phone"] for b in data["bookings"])
+
+
+def test_list_bookings_filter_by_user_name(client):
+    response = client.get("/api/bookings/?user_name=Amina")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["success"] is True
+    assert data["count"] >= 1
+    assert all("amina" in b["user_name"].lower() for b in data["bookings"])
+
+
 def test_get_single_booking(client):
     list_res = client.get("/api/bookings/")
     booking_id = list_res.json()["bookings"][0]["id"]
