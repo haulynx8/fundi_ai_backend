@@ -29,6 +29,7 @@ def format_shop_response(shop: Shop) -> ShopResponse:
 
 
 @router.get("/", response_model=ShopListResponse)
+@router.get("", response_model=ShopListResponse, include_in_schema=False)
 def list_shops(
     location: Annotated[str | None, Query(description="Filter by location/neighborhood")] = None,
     service: Annotated[str | None, Query(description="Filter by offered service keyword")] = None,

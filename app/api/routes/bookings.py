@@ -36,6 +36,7 @@ def format_booking_response(booking: Booking) -> BookingResponse:
 
 
 @router.post("/", response_model=BookingResponse, status_code=status.HTTP_201_CREATED)
+@router.post("", response_model=BookingResponse, status_code=status.HTTP_201_CREATED, include_in_schema=False)
 def create_booking(
     payload: BookingCreate,
     db: Session = Depends(get_db),
@@ -65,6 +66,7 @@ def create_booking(
 
 
 @router.get("/", response_model=BookingListResponse)
+@router.get("", response_model=BookingListResponse, include_in_schema=False)
 def list_bookings(
     shop_id: Annotated[int | None, Query(description="Filter bookings by shop ID")] = None,
     status_filter: Annotated[str | None, Query(alias="status", description="Filter bookings by status")] = None,
