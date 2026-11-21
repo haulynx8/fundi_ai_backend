@@ -9,7 +9,7 @@ from app.core.config import settings
 from app.core.database import Base
 
 # Import models so Alembic can discover them
-from app.models import Device, Fault, Diagnosis
+from app.models import Device, Fault, Diagnosis, Shop, Booking
 
 
 config = context.config
